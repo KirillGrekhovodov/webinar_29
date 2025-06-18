@@ -12,3 +12,7 @@ def about(request):
 
 def task4(request):
     return render(request, "task4.html")
+
+
+def task3(request):
+    return render(request, "task.html")
