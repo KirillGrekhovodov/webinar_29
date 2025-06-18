@@ -8,3 +8,7 @@ def index(request):
 
 def about(request):
     return render(request, "about.html")
+
+
+def task4(request):
+    return render(request, "task4.html")
